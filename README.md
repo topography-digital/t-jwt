@@ -7,7 +7,7 @@ JWT stands for JSON Web Token, which is a compact and secure way to transmit dat
 
 # Getting started
 
-```
+```dart
 import 'package:t_jwt/t_jwt.dart';
 
 void main() {

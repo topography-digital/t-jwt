@@ -1,5 +1,5 @@
 # Is this library safe for production?
-Not yet. This will be updated when it eventually is.
+Not yet. This will be updated when it eventually is tested and verified by a third-party.
 
 # What is a JWT?
 
@@ -14,7 +14,6 @@ xxxxx.yyyyy.zzzzz
 import 'package:t_jwt/t_jwt.dart';
 
 void main() {
-
   var jwt = JWT();
 
   var header = {
@@ -23,12 +22,17 @@ void main() {
   };
 
   var payload = {
-    'name': 'Shark',
-    'age': '18'
+    'name': 'Topography Digital',
+    'username': 'topography.digital',
   };
 
-  String signed = jwtt.sign(header, payload);
+  DateTime expiresAt = DateTime.now().add(Duration(days: 1));
+
+  String signed = jwt.sign(header, payload, expiresAt);
+
+  bool isVerified = jwt.verify(signed);
 
   print(signed);
+  print(isVerified);
 }
 ```

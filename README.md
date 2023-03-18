@@ -1,5 +1,5 @@
 # Is this library safe for production?
-Not yet. This will be updated when it eventually is tested and verified by a third-party.
+Not yet. This will be updated when it eventually is tested and verified by a third-party. Some features are entirely unfinished or not working.
 
 # What is a JWT?
 

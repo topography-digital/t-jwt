@@ -25,7 +25,7 @@ dependencies:
 import 'package:t_jwt/t_jwt.dart';
 
 void main() {
-  JWT jwt = JWT();
+  JWT jwt = JWT('your-secret-here');
 
   Map<String, String> header = {
     'alg': 'HS256',

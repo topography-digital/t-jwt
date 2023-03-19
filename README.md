@@ -3,7 +3,9 @@ alt="JWT library icon"
 style="height: 100px; width: 100px;" />
 
 # Json Web Token (JWT) library for Dart
-Meant for usage in our web server library but also perfectly suitable for usage independently. Files issues [here] (https://github.com/akula-shark/t-jwt/issues) and see pub.dev page <a href="https://pub.dev/packages/t_jwt">here</a>
+Meant for usage in our web server library but also perfectly suitable for usage independently. Files issues <a href="https://github.com/akula-shark/t-jwt/issues">here</a> and see pub.dev page <a href="https://pub.dev/packages/t_jwt">here</a>
+
+
 
 ## Limitations
 - Currently only supports HS256 algorithm

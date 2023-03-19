@@ -2,15 +2,10 @@
 alt="JWT library icon"
 style="height: 100px; width: 100px;" />
 
-## Is this library safe for production?
-Not yet. This will be updated when it eventually is tested and verified by a third-party. Some features are entirely unfinished or not working.
-
-## What is a JWT?
-
-JWT stands for JSON Web Token, which is a compact and secure way to transmit data between parties in a JSON format. JWTs are used for authentication and authorization purposes and consist of three parts: a header, a payload, and a signature. The header contains information about the algorithm used to sign the token, the payload contains the user's data or claims, and the signature is used to verify the token's authenticity. JWTs are commonly used in web applications, APIs, and mobile applications.
-
-A JWT Looks roughly like:
-xxxxx.yyyyy.zzzzz
+## Limitations
+- Currently only supports HS256 algorithm
+- Not verified to be safe for production
+- Not 100% compliant with the JWT standard yet
 
 ## Getting started
 

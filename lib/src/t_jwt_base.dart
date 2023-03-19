@@ -9,9 +9,10 @@ import 'algorithms.dart';
 class JWT {
   static final JWT _jwt = JWT._internal();
 
-  String secret = 'secret';
+  late String secret;
 
-  factory JWT() {
+  factory JWT(String secret) {
+    _jwt.secret = secret;
     return _jwt;
   }
 

@@ -1,14 +1,14 @@
 import 'package:t_jwt/t_jwt.dart';
 
 void main() {
-  var jwt = JWT();
+  JWT jwt = JWT('secret');
 
-  var header = {
+  Map<String, String> header = {
     'alg': 'HS256',
     'typ': 'JWT'
   };
 
-  var payload = {
+  Map<String, String>  payload = {
     'name': 'Topography Digital',
     'username': 'topography.digital',
   };

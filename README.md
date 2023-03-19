@@ -4,8 +4,6 @@ style="height: 100px; width: 100px;" />
 
 # Json Web Token (JWT) library for Dart
 
-<hr />
-
 ## Limitations
 - Currently only supports HS256 algorithm
 - Not verified to be safe for production

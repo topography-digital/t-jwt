@@ -1,6 +1,6 @@
 name: t_jwt
 description: A simple library for signing and verifying JWTs in Dart lang.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/akula-shark/t-jwt
 issue_tracker: https://github.com/akula-shark/t-jwt/issues
 
